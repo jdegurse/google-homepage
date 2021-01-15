@@ -1,0 +1,33 @@
+body {
+    background: white;
+    font-family: arial, sans-serif;
+}
+
+.logo {
+    padding: 200px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#query {
+    width: 400px;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: rgb(240, 240, 240);
+    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    border-radius: 2px;
+}
