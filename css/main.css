@@ -1,17 +1,69 @@
 body {
     background: white;
     font-family: arial, sans-serif;
-    font-size: 20px;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.nav-top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.nav-link {
+    padding: 0px 8px 0px 8px;
+}
+
+#apps-button {
+    position: relative;
+    top: -2px;
+    margin: 0px 10px 0px 10px;
+}
+
+#sign-in-button {
+    background-color: #4485f5;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 8px 12px 8px 12px;
+    border-radius: 2px;
+}
+
+
+#sign-in-button:active {
+    background-color: #3377db;
+    box-shadow: inset 0px 5px 5px -5px #0e3881;
 }
 
 .logo {
-    padding: 200px 0px 20px 0px;
+    padding: 130px 0px 25px 0px;
     display: flex;
     justify-content: center;
 }
 
 .search-bar {
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 25px 0px;
     display: flex;
     justify-content: center;
 }
@@ -49,10 +101,10 @@ body {
 }
 
 .button {
-    background: rgb(240, 240, 240);
-    font-size: 12px;
+    background: #f2f2f2;
+    font-size: 14px;
     margin: 5px;
-    padding: 10px 15px 10px 15px;
+    padding: 8px 15px 8px 15px;
     border: 1px solid transparent;
     border-radius: 2px;
 }
