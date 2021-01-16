@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.87);
+    color:#5f6368;
 }
 
 a:hover {
@@ -19,13 +19,13 @@ nav {
     justify-content: space-between;
 }
 
-.nav-top-left {
+.nav-left {
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
 
-.nav-top-right {
+.nav-right {
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -116,4 +116,36 @@ nav {
 
 .button:active {
     border: 1px solid lightskyblue;
+}
+
+footer {
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 21px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding-right: 21px;
+}
+
+.footer-link {
+    padding: 0px 12px 0px 12px;
+    font-size: 14px;
 }
